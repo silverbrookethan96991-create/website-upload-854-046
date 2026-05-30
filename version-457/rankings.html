@@ -1,0 +1,1423 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>排行榜-精选电影-热门好看的电影大全-高清电影免费在线观看</title>
+  <meta name="description" content="精选电影站内热度排行榜，整理热门好看的电影与剧集内容。">
+  <meta name="keywords" content="电影排行榜,热门电影,精选电影,热门电影,电影大全,高清电影,电影观看,高分影片">
+  <link rel="stylesheet" href="assets/original.css">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="bg-gradient-to-br from-slate-50 via-orange-50 to-pink-50 text-gray-800">
+
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-md border-b border-orange-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16 md:h-20">
+      <a href="index.html" class="flex items-center space-x-2 group" aria-label="精选电影首页">
+        <span class="brand-mark" aria-hidden="true">▶</span>
+        <span class="flex flex-col">
+          <span class="text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">精选电影</span>
+          <span class="text-xs text-gray-500 hidden sm:block">高清电影免费在线观看</span>
+        </span>
+      </a>
+      <nav class="hidden md:flex items-center space-x-8" aria-label="主导航">
+        <a href="index.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium">首页</a>
+        <a href="categories.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium">分类</a>
+        <a href="rankings.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium">排行榜</a>
+        <a href="category-jingxuan-dianying.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium">精选电影</a>
+        <a href="category-remen-haopian.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium">热门好片</a>
+        <a href="category-gaoqing-pianku.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium">高清片库</a>
+        <a href="category-gaofen-yingpian.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium">高分影片</a>
+        <a href="category-koubei-tuijian.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium">口碑推荐</a>
+      </nav>
+      <div class="flex items-center space-x-4">
+        <form action="search.html" method="get" class="hidden md:flex items-center">
+          <div class="relative">
+            <input type="search" name="q" placeholder="搜索电影、类型、地区..." class="w-48 lg:w-64 pl-4 pr-10 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent">
+            <button type="submit" class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-orange-500 transition-colors" aria-label="搜索">⌕</button>
+          </div>
+        </form>
+        <button type="button" class="md:hidden text-gray-700 hover:text-orange-500 transition-colors js-menu-toggle" aria-label="打开菜单" aria-expanded="false">☰</button>
+      </div>
+    </div>
+    <div class="md:hidden pb-4 space-y-4 mobile-panel" hidden>
+      <form action="search.html" method="get" class="flex items-center">
+        <div class="relative w-full">
+          <input type="search" name="q" placeholder="搜索电影、类型、地区..." class="w-full pl-4 pr-10 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent">
+          <button type="submit" class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-orange-500 transition-colors" aria-label="搜索">⌕</button>
+        </div>
+      </form>
+      <nav class="flex flex-col space-y-3" aria-label="移动端导航">
+        <a href="index.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium py-2 border-b border-gray-100">首页</a>
+        <a href="categories.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium py-2 border-b border-gray-100">分类总览</a>
+        <a href="rankings.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium py-2 border-b border-gray-100">排行榜</a>
+        <a href="category-jingxuan-dianying.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium py-2 border-b border-gray-100">精选电影</a>
+        <a href="category-remen-haopian.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium py-2 border-b border-gray-100">热门好片</a>
+        <a href="category-gaoqing-pianku.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium py-2 border-b border-gray-100">高清片库</a>
+        <a href="category-gaofen-yingpian.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium py-2 border-b border-gray-100">高分影片</a>
+        <a href="category-koubei-tuijian.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium py-2 border-b border-gray-100">口碑推荐</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  <section class="mb-12 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">排行榜</h1>
+    <p class="text-xl text-gray-600 max-w-3xl mx-auto">根据年份、标签丰富度、文本完整度与站内排序生成热度指数，展示前 100 部影片。</p>
+  </section>
+  <ol class="bg-white rounded-3xl shadow-lg overflow-hidden divide-y divide-gray-100">
+    
+<li class="ranking-row">
+  <a href="videos/0014.html" class="ranking-link">
+    <span class="ranking-number">01</span>
+    <img src="14.jpg" alt="御狐之绊第二季" loading="lazy">
+    <span class="ranking-info">
+      <strong>御狐之绊第二季</strong>
+      <em>2025 · 中国大陆 · 奇幻 / 古装 / 爱情</em>
+      <span>当沉睡千年的狐族契印再度松动，上一季分离的人与狐必须在王朝崩裂前，找回彼此失去的名字。</span>
+    </span>
+    <span class="ranking-score">115.8</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0114.html" class="ranking-link">
+    <span class="ranking-number">02</span>
+    <img src="114.jpg" alt="两个头的人" loading="lazy">
+    <span class="ranking-info">
+      <strong>两个头的人</strong>
+      <em>2018 · 日本 · 科幻 / 剧情 / 悬疑</em>
+      <span>一场事故后，一个人的身体里醒来两个互不相识的意识，他们必须在被研究机构追猎之前，决定谁才有资格继续活下去。</span>
+    </span>
+    <span class="ranking-score">115.3</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0198.html" class="ranking-link">
+    <span class="ranking-number">03</span>
+    <img src="48.jpg" alt="幻想中的你" loading="lazy">
+    <span class="ranking-info">
+      <strong>幻想中的你</strong>
+      <em>2023 · 日本 · 爱情 / 奇幻 / 剧情</em>
+      <span>她每晚都会梦见一个不存在的人，直到那个“幻想中的你”在现实里留下痕迹，逼她面对自己逃避了十年的真心。</span>
+    </span>
+    <span class="ranking-score">114.7</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0097.html" class="ranking-link">
+    <span class="ranking-number">04</span>
+    <img src="97.jpg" alt="空罐少女" loading="lazy">
+    <span class="ranking-info">
+      <strong>空罐少女</strong>
+      <em>2023 · 日本 · 喜剧，奇幻，日常</em>
+      <span>废柴男主随口对空罐许愿，结果罐子真变成了少女，但她的唯一愿望是让男主把她送到垃圾回收站。</span>
+    </span>
+    <span class="ranking-score">114.3</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0134.html" class="ranking-link">
+    <span class="ranking-number">05</span>
+    <img src="134.jpg" alt="我们爱企鹅" loading="lazy">
+    <span class="ranking-info">
+      <strong>我们爱企鹅</strong>
+      <em>2016 · 日本 · 动画 / 喜剧 / 家庭</em>
+      <span>一群误打误撞闯进南极旅站的孩子和企鹅结成同盟，他们要在暴风雪来临前把一场失控的“企鹅节”办成真正的救援行动。</span>
+    </span>
+    <span class="ranking-score">114.0</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0005.html" class="ranking-link">
+    <span class="ranking-number">06</span>
+    <img src="5.jpg" alt="隔壁的力" loading="lazy">
+    <span class="ranking-info">
+      <strong>隔壁的力</strong>
+      <em>2024 · 日本 · 剧情 / 家庭 / 社会</em>
+      <span>一位患有社交恐惧症的单亲爸爸，为了女儿，决定调查公寓里那堵经常传来奇怪敲击声的墙壁。</span>
+    </span>
+    <span class="ranking-score">113.9</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0048.html" class="ranking-link">
+    <span class="ranking-number">07</span>
+    <img src="48.jpg" alt="站直啰，别趴下" loading="lazy">
+    <span class="ranking-info">
+      <strong>站直啰，别趴下</strong>
+      <em>2024 · 中国大陆 · 剧情, 运动, 励志</em>
+      <span>失去右腿的退役拳击手林芳，装上义肢重返拳台，目标是打倒当年断送她职业生涯的冠军。</span>
+    </span>
+    <span class="ranking-score">113.9</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0024.html" class="ranking-link">
+    <span class="ranking-number">08</span>
+    <img src="24.jpg" alt="东四十条" loading="lazy">
+    <span class="ranking-info">
+      <strong>东四十条</strong>
+      <em>2024 · 中国 · 悬疑 / 犯罪 / 剧情</em>
+      <span>东四十条地铁站废弃的站台里，每天都有人“走进”墙壁，然后人间蒸发。</span>
+    </span>
+    <span class="ranking-score">113.7</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0043.html" class="ranking-link">
+    <span class="ranking-number">09</span>
+    <img src="43.jpg" alt="白雪公主：恐怖故事" loading="lazy">
+    <span class="ranking-info">
+      <strong>白雪公主：恐怖故事</strong>
+      <em>2025 · 英国 · 恐怖 / 奇幻 / 童话改编</em>
+      <span>王子吻醒白雪公主后，发现公主的身体里住着另一个嗜血的灵魂——皇后。</span>
+    </span>
+    <span class="ranking-score">113.5</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0026.html" class="ranking-link">
+    <span class="ranking-number">10</span>
+    <img src="26.jpg" alt="精灵也疯狂" loading="lazy">
+    <span class="ranking-info">
+      <strong>精灵也疯狂</strong>
+      <em>2024 · 英国 · 奇幻 / 喜剧 / 家庭</em>
+      <span>一群森林精灵因老家被开发商强拆，被迫搬到人类公寓，结果魔法在现代社会频频失灵。</span>
+    </span>
+    <span class="ranking-score">113.4</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0151.html" class="ranking-link">
+    <span class="ranking-number">11</span>
+    <img src="1.jpg" alt="唐老鸭拿到汇票" loading="lazy">
+    <span class="ranking-info">
+      <strong>唐老鸭拿到汇票</strong>
+      <em>2024 · 美国 · 喜剧、动画、冒险</em>
+      <span>穷困潦倒的唐老鸭意外收到一张巨额汇票，但汇票被顽皮的三只小鸭折成了纸飞机飞走了。</span>
+    </span>
+    <span class="ranking-score">113.3</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0047.html" class="ranking-link">
+    <span class="ranking-number">12</span>
+    <img src="47.jpg" alt="邪恶寄居" loading="lazy">
+    <span class="ranking-info">
+      <strong>邪恶寄居</strong>
+      <em>2023 · 中国香港 · 恐怖、悬疑、悬疑都市、社会寓言</em>
+      <span>一个陌生房客的房租条款写着“午夜后不许开灯”，全城霓虹却在他入住后开始自己熄灭。</span>
+    </span>
+    <span class="ranking-score">113.2</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0021.html" class="ranking-link">
+    <span class="ranking-number">13</span>
+    <img src="21.jpg" alt="向南海之道" loading="lazy">
+    <span class="ranking-info">
+      <strong>向南海之道</strong>
+      <em>2025 · 日本 · 剧情 / 家庭 / 公路</em>
+      <span>癌症晚期的父亲逼着讨厌自己的儿子开车去南海，一路上却不停地在给路边遇见的陌生人办葬礼。</span>
+    </span>
+    <span class="ranking-score">113.1</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0074.html" class="ranking-link">
+    <span class="ranking-number">14</span>
+    <img src="74.jpg" alt="毒镇" loading="lazy">
+    <span class="ranking-info">
+      <strong>毒镇</strong>
+      <em>2021 · 加拿大 · 悬疑, 犯罪, 社会现实</em>
+      <span>癌症高发的小镇居民发现污染源是当地最大企业，却无一人愿意出庭作证。</span>
+    </span>
+    <span class="ranking-score">113.1</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0135.html" class="ranking-link">
+    <span class="ranking-number">15</span>
+    <img src="135.jpg" alt="天仙配" loading="lazy">
+    <span class="ranking-info">
+      <strong>天仙配</strong>
+      <em>2024 · 中国 · 奇幻 / 爱情 / 古装</em>
+      <span>七仙女下凡不是为爱私奔，而是因为天庭实行“神仙精简编制”，她被下放人间试点“仙凡基层锻炼”。</span>
+    </span>
+    <span class="ranking-score">112.9</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0238.html" class="ranking-link">
+    <span class="ranking-number">16</span>
+    <img src="88.jpg" alt="穿越战火的人" loading="lazy">
+    <span class="ranking-info">
+      <strong>穿越战火的人</strong>
+      <em>2026 · 中国大陆 / 叙利亚 · 战争 / 纪录 / 人性</em>
+      <span>一位中国战地记者用八年时间，跟拍同一个叙利亚家庭，记录了战争从打碎他们到他们重建的全过程。</span>
+    </span>
+    <span class="ranking-score">112.8</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0128.html" class="ranking-link">
+    <span class="ranking-number">17</span>
+    <img src="128.jpg" alt="蛮荒虎女" loading="lazy">
+    <span class="ranking-info">
+      <strong>蛮荒虎女</strong>
+      <em>2025 · 美国 / 南非 · 动作 / 冒险 / 奇幻</em>
+      <span>被老虎养大的白人女孩目睹养母被盗猎者射杀后，她带领一群猛兽向现代文明宣战。</span>
+    </span>
+    <span class="ranking-score">112.8</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0307.html" class="ranking-link">
+    <span class="ranking-number">18</span>
+    <img src="7.jpg" alt="绝地计划" loading="lazy">
+    <span class="ranking-info">
+      <strong>绝地计划</strong>
+      <em>2020 · 美国 · 动作， 科幻， 惊悚</em>
+      <span>末日地下城突发变异病毒，一名底层维修工发现自己竟是唯一免疫者，也是“绝地计划”的终极试验品。</span>
+    </span>
+    <span class="ranking-score">112.8</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0272.html" class="ranking-link">
+    <span class="ranking-number">19</span>
+    <img src="122.jpg" alt="所以，我就推你了" loading="lazy">
+    <span class="ranking-info">
+      <strong>所以，我就推你了</strong>
+      <em>2019 · 日本 · 青春 / 悬疑 / 剧情</em>
+      <span>一次看似冲动的“推人”事件，把三个女生和一桩被掩埋多年的校园旧案重新推上台面。</span>
+    </span>
+    <span class="ranking-score">112.7</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0038.html" class="ranking-link">
+    <span class="ranking-number">20</span>
+    <img src="38.jpg" alt="凹凸世界第二季" loading="lazy">
+    <span class="ranking-info">
+      <strong>凹凸世界第二季</strong>
+      <em>2018 · 中国大陆 · 动作 / 科幻 / 冒险</em>
+      <span>凹凸大赛进入残酷的淘汰赛阶段，金与队友们不仅要对抗强敌，还必须揭开隐藏在赛制背后的创始者阴谋。</span>
+    </span>
+    <span class="ranking-score">112.7</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0340.html" class="ranking-link">
+    <span class="ranking-number">21</span>
+    <img src="40.jpg" alt="花渡" loading="lazy">
+    <span class="ranking-info">
+      <strong>花渡</strong>
+      <em>2026 · 中国大陆 · 剧情 / 爱情 / 文艺 / 历史</em>
+      <span>长江边一个叫“花渡”的百年渡口，外婆是最后一任“花婆”，母亲是第一个女船工，孙女考上北大那天，渡口被正式关闭。</span>
+    </span>
+    <span class="ranking-score">112.5</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0142.html" class="ranking-link">
+    <span class="ranking-number">22</span>
+    <img src="142.jpg" alt="深海逃脱" loading="lazy">
+    <span class="ranking-info">
+      <strong>深海逃脱</strong>
+      <em>2025 · 澳大利亚 · 科幻 / 惊悚 / 冒险</em>
+      <span>观光潜艇坠入马里亚纳海沟，五名幸存者发现深海黑暗中，某种远古智能生物正在模仿他们的记忆和声音。</span>
+    </span>
+    <span class="ranking-score">112.5</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0053.html" class="ranking-link">
+    <span class="ranking-number">23</span>
+    <img src="53.jpg" alt="此生漫漫" loading="lazy">
+    <span class="ranking-info">
+      <strong>此生漫漫</strong>
+      <em>2024 · 中国大陆 · 爱情 / 年代 / 剧情</em>
+      <span>姐姐逃婚后，我被迫替嫁给了她那位残疾且暴躁的军阀未婚夫，却发现了他的惊天秘密。</span>
+    </span>
+    <span class="ranking-score">112.5</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0186.html" class="ranking-link">
+    <span class="ranking-number">24</span>
+    <img src="36.jpg" alt="凤凰箫" loading="lazy">
+    <span class="ranking-info">
+      <strong>凤凰箫</strong>
+      <em>2025 · 中国大陆 · 古装, 悬疑, 武侠</em>
+      <span>明朝永乐年间，一支能操控人心的凤凰箫重现江湖，锦衣卫与神秘乐师展开生死对决。</span>
+    </span>
+    <span class="ranking-score">112.4</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0233.html" class="ranking-link">
+    <span class="ranking-number">25</span>
+    <img src="83.jpg" alt="伊妮德" loading="lazy">
+    <span class="ranking-info">
+      <strong>伊妮德</strong>
+      <em>2022 · 法国 · 冒险、悬疑、政治</em>
+      <span>考古学者伊妮德在撒哈拉发现一尊能随星象移动的女神像，解码语言后，她不得不在科学真相与殖民史叙事之间作出抉择。</span>
+    </span>
+    <span class="ranking-score">112.4</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0242.html" class="ranking-link">
+    <span class="ranking-number">26</span>
+    <img src="92.jpg" alt="一个叫小小船的男孩" loading="lazy">
+    <span class="ranking-info">
+      <strong>一个叫小小船的男孩</strong>
+      <em>2026 · 美国 · 奇幻 / 冒险 / 家庭</em>
+      <span>一个能用纸折出真实船只的男孩，为了寻找失踪的父亲，驶入了由废弃玩具组成的海洋。</span>
+    </span>
+    <span class="ranking-score">112.3</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0291.html" class="ranking-link">
+    <span class="ranking-number">27</span>
+    <img src="141.jpg" alt="爱在心里怎知道" loading="lazy">
+    <span class="ranking-info">
+      <strong>爱在心里怎知道</strong>
+      <em>2025 · 美国 · 爱情, 剧情, 奇幻</em>
+      <span>车祸失忆后，他每天都会重新爱上照顾他的护士，但护士知道，他一旦恢复记忆，就会想起他曾经多么恨她。</span>
+    </span>
+    <span class="ranking-score">112.3</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0071.html" class="ranking-link">
+    <span class="ranking-number">28</span>
+    <img src="71.jpg" alt="同级生2" loading="lazy">
+    <span class="ranking-info">
+      <strong>同级生2</strong>
+      <em>2024 · 日本 · 爱情 / 校园 / 青春</em>
+      <span>那个夏天说好一起考东京，后来我们谁都没能赴约。</span>
+    </span>
+    <span class="ranking-score">112.3</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0154.html" class="ranking-link">
+    <span class="ranking-number">29</span>
+    <img src="4.jpg" alt="乡下人进城" loading="lazy">
+    <span class="ranking-info">
+      <strong>乡下人进城</strong>
+      <em>2026 · 中国大陆 · 喜剧/剧情</em>
+      <span>老实巴交的农民老赵第一次进城找打工的儿子，却在误打误撞中成了网红“城市英雄”。</span>
+    </span>
+    <span class="ranking-score">112.2</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0059.html" class="ranking-link">
+    <span class="ranking-number">30</span>
+    <img src="59.jpg" alt="澳门" loading="lazy">
+    <span class="ranking-info">
+      <strong>澳门</strong>
+      <em>2025 · 中国澳门 · 犯罪 / 剧情</em>
+      <span>一个澳门叠码仔在回归前夜接到最后一项任务：帮一位落难赌王偷渡到菲律宾，而对方是他失散二十年的亲生父亲。</span>
+    </span>
+    <span class="ranking-score">112.2</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0065.html" class="ranking-link">
+    <span class="ranking-number">31</span>
+    <img src="65.jpg" alt="恶食千金与狂血公爵" loading="lazy">
+    <span class="ranking-info">
+      <strong>恶食千金与狂血公爵</strong>
+      <em>2025 · 日本 · 奇幻 / 爱情 / 悬疑</em>
+      <span>被未婚夫陷害的“恶食千金”，被迫嫁给了嗜血公爵，却发现他的诅咒只有自己能吃的东西能解开。</span>
+    </span>
+    <span class="ranking-score">112.2</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0222.html" class="ranking-link">
+    <span class="ranking-number">32</span>
+    <img src="72.jpg" alt="快藏起来！玛琪娜同学" loading="lazy">
+    <span class="ranking-info">
+      <strong>快藏起来！玛琪娜同学</strong>
+      <em>2025 · 日本 · 喜剧、校园、科幻、恋爱</em>
+      <span>一个报废的军用机器人被高中生捡回家，她只会三件事：写作业、打架、用超强臂力把人举高高。</span>
+    </span>
+    <span class="ranking-score">112.2</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0183.html" class="ranking-link">
+    <span class="ranking-number">33</span>
+    <img src="33.jpg" alt="180°以南" loading="lazy">
+    <span class="ranking-info">
+      <strong>180°以南</strong>
+      <em>2024 · 澳大利亚 · 冒险, 科幻, 生存</em>
+      <span>航线只差一度纬度就能回家，但船长为何把船头总是朝着更危险的南方推去，仿佛把地图当成审讯室里的证词。</span>
+    </span>
+    <span class="ranking-score">112.2</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0118.html" class="ranking-link">
+    <span class="ranking-number">34</span>
+    <img src="118.jpg" alt="时间囚徒" loading="lazy">
+    <span class="ranking-info">
+      <strong>时间囚徒</strong>
+      <em>2029 · 中国大陆 · 科幻 / 悬疑</em>
+      <span>一个死刑犯被送入“时间囚牢”，在意识中反复经历同一天直到认罪，但他发现每个循环里都有一个陌生人也在醒来。</span>
+    </span>
+    <span class="ranking-score">112.1</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0079.html" class="ranking-link">
+    <span class="ranking-number">35</span>
+    <img src="79.jpg" alt="看不见的战争" loading="lazy">
+    <span class="ranking-info">
+      <strong>看不见的战争</strong>
+      <em>2027 · 美国 / 英国 · 科幻, 惊悚, 政治</em>
+      <span>第三次世界大战没有硝烟，敌我双方的士兵在植入芯片的幻觉中互相残杀，而他们以为自己在打游戏。</span>
+    </span>
+    <span class="ranking-score">112.1</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0032.html" class="ranking-link">
+    <span class="ranking-number">36</span>
+    <img src="32.jpg" alt="神鬼叛谍" loading="lazy">
+    <span class="ranking-info">
+      <strong>神鬼叛谍</strong>
+      <em>2026 · 美国 · 动作 / 惊悚 / 谍战</em>
+      <span>中情局最优秀的间谍被洗脑后发现自己一年前就已经叛变，现在追杀他的全是自己人。</span>
+    </span>
+    <span class="ranking-score">112.1</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0395.html" class="ranking-link">
+    <span class="ranking-number">37</span>
+    <img src="95.jpg" alt="厨神小当家第一季 国语版" loading="lazy">
+    <span class="ranking-info">
+      <strong>厨神小当家第一季 国语版</strong>
+      <em>2019 · 日本 · 美食, 冒险, 热血, 动画</em>
+      <span>一个天赋惊人的少年厨师踏上寻味之路，在一道道看似平凡的菜里，逼出对手最不愿承认的秘密与野心。</span>
+    </span>
+    <span class="ranking-score">112.1</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0050.html" class="ranking-link">
+    <span class="ranking-number">38</span>
+    <img src="50.jpg" alt="血腥罗曼史" loading="lazy">
+    <span class="ranking-info">
+      <strong>血腥罗曼史</strong>
+      <em>2025 · 西班牙 · 恐怖, 爱情</em>
+      <span>一个患有血友病的哥特少女，爱上了古老的吸血鬼伯爵，她用自己的鲜血喂养爱人，却发现这只是一场千年的献祭。</span>
+    </span>
+    <span class="ranking-score">112.0</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0129.html" class="ranking-link">
+    <span class="ranking-number">39</span>
+    <img src="129.jpg" alt="我不玩" loading="lazy">
+    <span class="ranking-info">
+      <strong>我不玩</strong>
+      <em>2025 · 中国香港 · 悬疑, 犯罪, 心理</em>
+      <span>全球顶级游戏设计师被卷入一场真人赌局，他拒绝参与，但所有现实中的巧合都在迫使他“下注”。</span>
+    </span>
+    <span class="ranking-score">112.0</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0194.html" class="ranking-link">
+    <span class="ranking-number">40</span>
+    <img src="44.jpg" alt="行走的幽魂" loading="lazy">
+    <span class="ranking-info">
+      <strong>行走的幽魂</strong>
+      <em>2025 · 泰国 · 恐怖，剧情，惊悚</em>
+      <span>一个无法投胎的幽魂，必须附身在一具正在行走的尸体上，在七天之内走到自己坟前，才能想起死因。</span>
+    </span>
+    <span class="ranking-score">111.9</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0167.html" class="ranking-link">
+    <span class="ranking-number">41</span>
+    <img src="17.jpg" alt="黄飞鸿之王者无敌" loading="lazy">
+    <span class="ranking-info">
+      <strong>黄飞鸿之王者无敌</strong>
+      <em>2024 · 中国大陆 · 动作 / 武侠 / 历史</em>
+      <span>1905年，黄飞鸿面对的不再是洋枪洋炮，而是一个能用电流强化人体肌肉的“科学狂人”。</span>
+    </span>
+    <span class="ranking-score">111.9</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0173.html" class="ranking-link">
+    <span class="ranking-number">42</span>
+    <img src="23.jpg" alt="璇宫艳史" loading="lazy">
+    <span class="ranking-info">
+      <strong>璇宫艳史</strong>
+      <em>2024 · 中国香港 · 情色，剧情，历史</em>
+      <span>武则天时期，宫中一座“璇宫”实为酷刑与欲望交织的情报中心，舞姬在此织就一张权力网。</span>
+    </span>
+    <span class="ranking-score">111.9</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0523.html" class="ranking-link">
+    <span class="ranking-number">43</span>
+    <img src="73.jpg" alt="凤唳九天" loading="lazy">
+    <span class="ranking-info">
+      <strong>凤唳九天</strong>
+      <em>2020 · 中国大陆 · 古装、宫斗、权谋</em>
+      <span>被诬陷的侯门之女以乐师身份重返宫廷，在一曲《凤唳》里步步逼近当年灭门真相。</span>
+    </span>
+    <span class="ranking-score">111.9</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0182.html" class="ranking-link">
+    <span class="ranking-number">44</span>
+    <img src="32.jpg" alt="无良医生：爱里藏刀" loading="lazy">
+    <span class="ranking-info">
+      <strong>无良医生：爱里藏刀</strong>
+      <em>2025 · 韩国 · 悬疑 / 惊悚 / 医疗</em>
+      <span>韩国顶级整形医生对每位患者都说“我爱你”，而那些拒绝表白的人，再也没有走出手术室。</span>
+    </span>
+    <span class="ranking-score">111.8</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0064.html" class="ranking-link">
+    <span class="ranking-number">45</span>
+    <img src="64.jpg" alt="城市之街" loading="lazy">
+    <span class="ranking-info">
+      <strong>城市之街</strong>
+      <em>2023 · 中国 · 喜剧, 剧情</em>
+      <span>一条即将拆迁的老街上，形形色色的街坊们在最后一个月里，上演了一幕幕笑泪交织的告别故事。</span>
+    </span>
+    <span class="ranking-score">111.8</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0044.html" class="ranking-link">
+    <span class="ranking-number">46</span>
+    <img src="44.jpg" alt="小鬼当家2" loading="lazy">
+    <span class="ranking-info">
+      <strong>小鬼当家2</strong>
+      <em>2024 · 美国 · 喜剧 / 家庭 / 冒险</em>
+      <span>又一年圣诞，凯文意外飞往纽约，独自住进豪华酒店，不料老冤家再度上门。</span>
+    </span>
+    <span class="ranking-score">111.7</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0278.html" class="ranking-link">
+    <span class="ranking-number">47</span>
+    <img src="128.jpg" alt="乐满奥尔良" loading="lazy">
+    <span class="ranking-info">
+      <strong>乐满奥尔良</strong>
+      <em>2023 · 美国 · 音乐 / 剧情 / 家庭</em>
+      <span>卡特里娜飓风后，一把失踪了四十年的小号出现在当铺，号嘴里塞着一张泛黄的酒吧契约。</span>
+    </span>
+    <span class="ranking-score">111.7</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0006.html" class="ranking-link">
+    <span class="ranking-number">48</span>
+    <img src="6.jpg" alt="布里斯营" loading="lazy">
+    <span class="ranking-info">
+      <strong>布里斯营</strong>
+      <em>2026 · 澳大利亚 · 惊悚 / 战争 / 悬疑</em>
+      <span>二战时期的澳洲内陆战俘营，一名德国战俘向澳军上尉举报：营地里有自己人伪装的美军间谍。</span>
+    </span>
+    <span class="ranking-score">111.6</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0055.html" class="ranking-link">
+    <span class="ranking-number">49</span>
+    <img src="55.jpg" alt="恶汉甜梦" loading="lazy">
+    <span class="ranking-info">
+      <strong>恶汉甜梦</strong>
+      <em>2026 · 日本 · 剧情 / 犯罪 / 黑色电影</em>
+      <span>一个浑身是血的恶汉闯入甜品店，胁迫店主做一块“能让人忘记一切”的蛋糕，而他忘了，店主就是他二十年前抛弃的儿子。</span>
+    </span>
+    <span class="ranking-score">111.6</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0208.html" class="ranking-link">
+    <span class="ranking-number">50</span>
+    <img src="58.jpg" alt="猪头汉堡包" loading="lazy">
+    <span class="ranking-info">
+      <strong>猪头汉堡包</strong>
+      <em>2024 · 中国大陆 · 喜剧 / 悬疑 / 惊悚</em>
+      <span>网红探店博主发现某县城火爆的“猪头汉堡包”味道极鲜，追踪货源时，竟牵扯出一桩连环失踪案。</span>
+    </span>
+    <span class="ranking-score">111.6</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0030.html" class="ranking-link">
+    <span class="ranking-number">51</span>
+    <img src="30.jpg" alt="都挺好" loading="lazy">
+    <span class="ranking-info">
+      <strong>都挺好</strong>
+      <em>2023 · 中国大陆 · 剧情 / 家庭</em>
+      <span>苏家三个子女在母亲突然去世后被迫捆绑在一起，原生家庭积压几十年的偏心与伤痕终于爆发。</span>
+    </span>
+    <span class="ranking-score">111.6</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0203.html" class="ranking-link">
+    <span class="ranking-number">52</span>
+    <img src="53.jpg" alt="阴影之王" loading="lazy">
+    <span class="ranking-info">
+      <strong>阴影之王</strong>
+      <em>2023 · 美国 · 悬疑、犯罪、超自然</em>
+      <span>白天他是警局最平庸的心理侧写师，夜晚他化身惩戒罪行的“阴影之王”，但他最近发现，自己追踪的连环杀手竟和自己共用同一具身体。</span>
+    </span>
+    <span class="ranking-score">111.6</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0041.html" class="ranking-link">
+    <span class="ranking-number">53</span>
+    <img src="41.jpg" alt="1公升的泪" loading="lazy">
+    <span class="ranking-info">
+      <strong>1公升的泪</strong>
+      <em>2024 · 日本 · 剧情 / 家庭 / 医疗</em>
+      <span>患上不治之症的 15 岁少女决定用最后三年时间，拍完一部“给未来自己”的遗愿清单视频日记。</span>
+    </span>
+    <span class="ranking-score">111.5</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0306.html" class="ranking-link">
+    <span class="ranking-number">54</span>
+    <img src="6.jpg" alt="荷尔蒙的神奇世界" loading="lazy">
+    <span class="ranking-info">
+      <strong>荷尔蒙的神奇世界</strong>
+      <em>2024 · 日本 · 青春 / 科幻 / 校园成长</em>
+      <span>一间实验营把青春期的不安变成可测数据，少年少女在“同步梦境”里听见彼此心跳，才发现成长不是被驯服，而是学会对自己的身体与羞耻负责。</span>
+    </span>
+    <span class="ranking-score">111.5</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0207.html" class="ranking-link">
+    <span class="ranking-number">55</span>
+    <img src="57.jpg" alt="圣埃尔默" loading="lazy">
+    <span class="ranking-info">
+      <strong>圣埃尔默</strong>
+      <em>2023 · 美国 · 剧情, 惊悚, 西部</em>
+      <span>流浪至边境小镇的传教士，发现当地治安官利用圣经为杀人犯洗罪，他决定化身审判者。</span>
+    </span>
+    <span class="ranking-score">111.5</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0034.html" class="ranking-link">
+    <span class="ranking-number">56</span>
+    <img src="34.jpg" alt="人类瑕疵大学" loading="lazy">
+    <span class="ranking-info">
+      <strong>人类瑕疵大学</strong>
+      <em>2022 · 日本 · 悬疑、校园、科幻</em>
+      <span>一所只招收“有瑕疵”的人的大学，开学第一课是：你们都是克隆人，四年后必须死一个。</span>
+    </span>
+    <span class="ranking-score">111.5</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0164.html" class="ranking-link">
+    <span class="ranking-number">57</span>
+    <img src="14.jpg" alt="时日回光" loading="lazy">
+    <span class="ranking-info">
+      <strong>时日回光</strong>
+      <em>2025 · 中国台湾 · 剧情 / 家庭 / 奇幻</em>
+      <span>癌症晚期的儿子意外获得时间循环能力，唯一打破循环的方法竟是让疏远的父亲说出“我爱你”。</span>
+    </span>
+    <span class="ranking-score">111.4</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0019.html" class="ranking-link">
+    <span class="ranking-number">58</span>
+    <img src="19.jpg" alt="菩提树" loading="lazy">
+    <span class="ranking-info">
+      <strong>菩提树</strong>
+      <em>2024 · 印度 · 剧情, 奇幻, 悬疑</em>
+      <span>村口的千年菩提树结出了一颗金芒果，吃掉它的家族成员开始轮回复活，但复活后的亲人们性情大变。</span>
+    </span>
+    <span class="ranking-score">111.4</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0098.html" class="ranking-link">
+    <span class="ranking-number">59</span>
+    <img src="98.jpg" alt="巫女爆走中" loading="lazy">
+    <span class="ranking-info">
+      <strong>巫女爆走中</strong>
+      <em>2024 · 日本 · 喜剧，奇幻</em>
+      <span>一个神社的佛系巫女被雷劈后获得神力，却只想骑着暴走摩托去找抛弃她的前男友复仇。</span>
+    </span>
+    <span class="ranking-score">111.4</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0250.html" class="ranking-link">
+    <span class="ranking-number">60</span>
+    <img src="100.jpg" alt="媳妇是怎样炼成的" loading="lazy">
+    <span class="ranking-info">
+      <strong>媳妇是怎样炼成的</strong>
+      <em>2024 · 中国大陆 · 家庭 / 喜剧 / 剧情</em>
+      <span>外企女高管婚后被迫和婆婆同住，却发现婆婆是自己多年前开除的保洁阿姨，一场婆媳战争变职场复仇。</span>
+    </span>
+    <span class="ranking-score">111.4</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0201.html" class="ranking-link">
+    <span class="ranking-number">61</span>
+    <img src="51.jpg" alt="我的姐姐" loading="lazy">
+    <span class="ranking-info">
+      <strong>我的姐姐</strong>
+      <em>2021 · 中国大陆 · 剧情 / 家庭</em>
+      <span>父母意外离世后，二十四岁的姐姐面临一个选择：去北京读研，还是留在老家抚养六岁的弟弟。</span>
+    </span>
+    <span class="ranking-score">111.4</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0227.html" class="ranking-link">
+    <span class="ranking-number">62</span>
+    <img src="77.jpg" alt="长江图" loading="lazy">
+    <span class="ranking-info">
+      <strong>长江图</strong>
+      <em>2016 · 中国大陆 · 剧情 / 爱情 / 艺术</em>
+      <span>货船船长逆流而上，每到一个码头都能遇到同一个女人，但她在每一站都老了几十岁。</span>
+    </span>
+    <span class="ranking-score">111.4</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0188.html" class="ranking-link">
+    <span class="ranking-number">63</span>
+    <img src="38.jpg" alt="国际女间谍" loading="lazy">
+    <span class="ranking-info">
+      <strong>国际女间谍</strong>
+      <em>2026 · 英国 / 韩国 · 动作 / 悬疑 / 谍战</em>
+      <span>一名朝鲜黑客被CIA策反后，又被MI6“反策反”，她发现自己是三面间谍，而三方上司都是她前男友。</span>
+    </span>
+    <span class="ranking-score">111.3</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0095.html" class="ranking-link">
+    <span class="ranking-number">64</span>
+    <img src="95.jpg" alt="神选之地" loading="lazy">
+    <span class="ranking-info">
+      <strong>神选之地</strong>
+      <em>2025 · 美国 · 悬疑, 科幻, 惊悚</em>
+      <span>七个陌生人被投放到一座能读取记忆的孤岛，他们被告知只有一人能被“神”选中离开。</span>
+    </span>
+    <span class="ranking-score">111.3</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0010.html" class="ranking-link">
+    <span class="ranking-number">65</span>
+    <img src="10.jpg" alt="猛鬼大厦" loading="lazy">
+    <span class="ranking-info">
+      <strong>猛鬼大厦</strong>
+      <em>2024 · 中国香港 / 泰国 · 恐怖 / 喜剧</em>
+      <span>一栋烂尾楼里住着七个穷鬼和一个真鬼，房东为了卖房决定搞一场“直播捉鬼秀”。</span>
+    </span>
+    <span class="ranking-score">111.3</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0089.html" class="ranking-link">
+    <span class="ranking-number">66</span>
+    <img src="89.jpg" alt="慈母复仇路" loading="lazy">
+    <span class="ranking-info">
+      <strong>慈母复仇路</strong>
+      <em>2024 · 韩国 · 动作 / 惊悚 / 剧情</em>
+      <span>一位自闭症孩子的单亲妈妈，发现女儿被校园霸凌致死真相后，亲手训练自己成为杀人机器。</span>
+    </span>
+    <span class="ranking-score">111.3</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0090.html" class="ranking-link">
+    <span class="ranking-number">67</span>
+    <img src="90.jpg" alt="已是香港明日" loading="lazy">
+    <span class="ranking-info">
+      <strong>已是香港明日</strong>
+      <em>2024 · 中国香港 · 爱情 / 文艺</em>
+      <span>一名从洛杉矶回港寻根的美籍华裔设计师，在兰桂坊与一个神秘女子度过了改变一生的夜晚。</span>
+    </span>
+    <span class="ranking-score">111.3</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0160.html" class="ranking-link">
+    <span class="ranking-number">68</span>
+    <img src="10.jpg" alt="崎路父子情" loading="lazy">
+    <span class="ranking-info">
+      <strong>崎路父子情</strong>
+      <em>2024 · 中国大陆 · 剧情，家庭，公路</em>
+      <span>癌症晚期的固执父亲，要求儿子骑摩托车带他重走六十年前逃荒路，一路吵一路哭。</span>
+    </span>
+    <span class="ranking-score">111.3</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0035.html" class="ranking-link">
+    <span class="ranking-number">69</span>
+    <img src="35.jpg" alt="种地吧3" loading="lazy">
+    <span class="ranking-info">
+      <strong>种地吧3</strong>
+      <em>2026 · 中国大陆 · 真人秀, 纪实, 农业</em>
+      <span>十位少年远赴东北黑土地，在零下三十度的严寒中挑战大规模机械化种植。</span>
+    </span>
+    <span class="ranking-score">111.2</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0029.html" class="ranking-link">
+    <span class="ranking-number">70</span>
+    <img src="29.jpg" alt="那时候那些人" loading="lazy">
+    <span class="ranking-info">
+      <strong>那时候那些人</strong>
+      <em>2025 · 中国台湾 · 剧情 / 家庭 / 历史</em>
+      <span>一张老相片，串联起一个眷村家族从八十年代到当下的悲欢离合。</span>
+    </span>
+    <span class="ranking-score">111.2</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0327.html" class="ranking-link">
+    <span class="ranking-number">71</span>
+    <img src="27.jpg" alt="五十公里桃花坞3" loading="lazy">
+    <span class="ranking-info">
+      <strong>五十公里桃花坞3</strong>
+      <em>2025 · 中国大陆 · 真人秀、生活、社交</em>
+      <span>十五位明星被送到距离城市五十公里的荒野，这次他们不是要建乌托邦，而是要在21天内运营一家真正的民宿。</span>
+    </span>
+    <span class="ranking-score">111.2</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0185.html" class="ranking-link">
+    <span class="ranking-number">72</span>
+    <img src="35.jpg" alt="蒲公英" loading="lazy">
+    <span class="ranking-info">
+      <strong>蒲公英</strong>
+      <em>2024 · 日本 · 剧情, 家庭</em>
+      <span>患绝症的单身母亲在生命最后三个月，带着自闭症女儿踏上寻找父亲之旅。</span>
+    </span>
+    <span class="ranking-score">111.2</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0025.html" class="ranking-link">
+    <span class="ranking-number">73</span>
+    <img src="25.jpg" alt="迷夜惨遇" loading="lazy">
+    <span class="ranking-info">
+      <strong>迷夜惨遇</strong>
+      <em>2021 · 英国 · 恐怖 / 惊悚</em>
+      <span>一对情侣雨夜迷路，借宿一栋孤宅，却发现宅子的每一扇窗户里都锁着一个被当作“家人”的活人。</span>
+    </span>
+    <span class="ranking-score">111.2</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0379.html" class="ranking-link">
+    <span class="ranking-number">74</span>
+    <img src="79.jpg" alt="柔伊102" loading="lazy">
+    <span class="ranking-info">
+      <strong>柔伊102</strong>
+      <em>2025 · 美国 · 科幻, 惊悚, 人工智能, 太空</em>
+      <span>编号102的柔伊不是人类，却在失重轨道上逐次复位自己的名字；每次醒来，她都要在72小时内救下另一个“可能的我”。</span>
+    </span>
+    <span class="ranking-score">111.1</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0058.html" class="ranking-link">
+    <span class="ranking-number">75</span>
+    <img src="58.jpg" alt="旅人" loading="lazy">
+    <span class="ranking-info">
+      <strong>旅人</strong>
+      <em>2024 · 英国 · 剧情 / 奇幻</em>
+      <span>一个能永远穿越时间却无法在任何时代停留的男人，成了时间尽头唯一的“驿站老板”。</span>
+    </span>
+    <span class="ranking-score">111.1</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0247.html" class="ranking-link">
+    <span class="ranking-number">76</span>
+    <img src="97.jpg" alt="神秘的古庙大电影" loading="lazy">
+    <span class="ranking-info">
+      <strong>神秘的古庙大电影</strong>
+      <em>2024 · 中国大陆 · 喜剧，奇幻，冒险</em>
+      <span>三名菜鸟主播为了流量闯入一座荒废古庙直播探险，却意外启动了古代机关，被传送进了庙里壁画描绘的异世界中。</span>
+    </span>
+    <span class="ranking-score">111.1</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0130.html" class="ranking-link">
+    <span class="ranking-number">77</span>
+    <img src="130.jpg" alt="来吃晚饭的人" loading="lazy">
+    <span class="ranking-info">
+      <strong>来吃晚饭的人</strong>
+      <em>2023 · 法国 · 喜剧、剧情、黑色幽默</em>
+      <span>一个水管工被错认成富豪受邀参加名流晚宴，他决定将错就错，用扳手和冷笑话拆穿整个上流社会。</span>
+    </span>
+    <span class="ranking-score">111.1</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0332.html" class="ranking-link">
+    <span class="ranking-number">78</span>
+    <img src="32.jpg" alt="恋爱选举与巧克力" loading="lazy">
+    <span class="ranking-info">
+      <strong>恋爱选举与巧克力</strong>
+      <em>2023 · 日本 · 校园、恋爱、政治</em>
+      <span>为了保住濒临废部的“食品研究部”，毫无野心的男主被迫参选学生会主席，但他很快发现，对手的竞选资金可能来自非法劳工。</span>
+    </span>
+    <span class="ranking-score">111.1</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0091.html" class="ranking-link">
+    <span class="ranking-number">79</span>
+    <img src="91.jpg" alt="怪侠欧阳德" loading="lazy">
+    <span class="ranking-info">
+      <strong>怪侠欧阳德</strong>
+      <em>2011 · 中国台湾 · 古装 / 喜剧 / 武侠</em>
+      <span>一个穿反清复明外衣的滑稽怪侠，实则是康熙安插在江湖中的一只笑面蜘蛛。</span>
+    </span>
+    <span class="ranking-score">111.1</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0437.html" class="ranking-link">
+    <span class="ranking-number">80</span>
+    <img src="137.jpg" alt="女头人" loading="lazy">
+    <span class="ranking-info">
+      <strong>女头人</strong>
+      <em>2026 · 中国大陆 · 科幻, 政治惊悚, 身份谜题</em>
+      <span>她只是系统工程师周璃，却在“女头人”计划启动后成了最危险的数据替身，连谁才是真正的人也被程序写进了生死名单。</span>
+    </span>
+    <span class="ranking-score">111.0</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0125.html" class="ranking-link">
+    <span class="ranking-number">81</span>
+    <img src="125.jpg" alt="欢乐皱纹" loading="lazy">
+    <span class="ranking-info">
+      <strong>欢乐皱纹</strong>
+      <em>2025 · 西班牙 · 剧情 / 动画 / 家庭</em>
+      <span>养老院里两位老人策划“逃亡”，只为去看一眼大海，却唤醒了一群枯朽老人的青春。</span>
+    </span>
+    <span class="ranking-score">111.0</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0245.html" class="ranking-link">
+    <span class="ranking-number">82</span>
+    <img src="95.jpg" alt="28周后" loading="lazy">
+    <span class="ranking-info">
+      <strong>28周后</strong>
+      <em>2025 · 英国 · 恐怖, 科幻, 剧情</em>
+      <span>狂暴病毒爆发28周后，英国在美军帮助下重建，但幸存者们发现，病毒开始在活人体内悄悄进化。</span>
+    </span>
+    <span class="ranking-score">111.0</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0345.html" class="ranking-link">
+    <span class="ranking-number">83</span>
+    <img src="45.jpg" alt="开心超人联盟之奇幻谜瑞岛" loading="lazy">
+    <span class="ranking-info">
+      <strong>开心超人联盟之奇幻谜瑞岛</strong>
+      <em>2025 · 中国大陆 · 喜剧、科幻、冒险</em>
+      <span>开心超人们收到来自沉没古岛“谜瑞岛”的神秘求救信号，却发现岛上居民都是古代超人的意识备份。</span>
+    </span>
+    <span class="ranking-score">111.0</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0287.html" class="ranking-link">
+    <span class="ranking-number">84</span>
+    <img src="137.jpg" alt="理想男友" loading="lazy">
+    <span class="ranking-info">
+      <strong>理想男友</strong>
+      <em>2023 · 韩国 / 美国 · 爱情 / 科幻 / 喜剧</em>
+      <span>单身程序员抽中内测资格，获得一个完全符合她理想型的AI人形男友，却发现他太完美反而毛骨悚然。</span>
+    </span>
+    <span class="ranking-score">111.0</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0015.html" class="ranking-link">
+    <span class="ranking-number">85</span>
+    <img src="15.jpg" alt="巴黎电幻世代" loading="lazy">
+    <span class="ranking-info">
+      <strong>巴黎电幻世代</strong>
+      <em>2028 · 法国 · 爱情 / 音乐</em>
+      <span>四个在90年代巴黎郊区长大的穷小子，因为偷了一台合成器，从此踏上了改变法国电子音乐史的癫狂旅程。</span>
+    </span>
+    <span class="ranking-score">110.9</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0108.html" class="ranking-link">
+    <span class="ranking-number">86</span>
+    <img src="108.jpg" alt="行动代号拿破仑" loading="lazy">
+    <span class="ranking-info">
+      <strong>行动代号拿破仑</strong>
+      <em>2025 · 冰岛 · 动作，悬疑，冒险</em>
+      <span>冰岛海岸惊现二战坠机，一名女律师和一名前军人卷入一场关乎世界新秩序的密码争夺战。</span>
+    </span>
+    <span class="ranking-score">110.9</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0020.html" class="ranking-link">
+    <span class="ranking-number">87</span>
+    <img src="20.jpg" alt="爱的过去进行式：真爱永远" loading="lazy">
+    <span class="ranking-info">
+      <strong>爱的过去进行式：真爱永远</strong>
+      <em>2024 · 美国 · 爱情 / 青春</em>
+      <span>劳拉和彼得异地恋三年后，终于要决定是结婚还是分手，而一个意想不到的人突然回来了。</span>
+    </span>
+    <span class="ranking-score">110.9</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0040.html" class="ranking-link">
+    <span class="ranking-number">88</span>
+    <img src="40.jpg" alt="圣诞之歌" loading="lazy">
+    <span class="ranking-info">
+      <strong>圣诞之歌</strong>
+      <em>2017 · 美国 · 音乐 / 家庭 / 奇幻</em>
+      <span>毒舌乐评人被困圣诞前夜，只有重组失败的高中合唱团才能打破循环。</span>
+    </span>
+    <span class="ranking-score">110.9</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0269.html" class="ranking-link">
+    <span class="ranking-number">89</span>
+    <img src="119.jpg" alt="极度寒冷" loading="lazy">
+    <span class="ranking-info">
+      <strong>极度寒冷</strong>
+      <em>1983 · 美国 / 加拿大 · 冰原惊悚，生存灾难，心理悬疑</em>
+      <span>北极科考站在暴风雪中彻底断联后，幸存者们必须面对的不是寒冷本身，而是看不见的背叛和被冰封的旧秘密。</span>
+    </span>
+    <span class="ranking-score">110.9</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0039.html" class="ranking-link">
+    <span class="ranking-number">90</span>
+    <img src="39.jpg" alt="天晴烂漫！" loading="lazy">
+    <span class="ranking-info">
+      <strong>天晴烂漫！</strong>
+      <em>2026 · 日本 · 喜剧 / 日常</em>
+      <span>四个问题学生强行成立“晴天研究社”，只为了让每个下雨天都能在操场踢足球。</span>
+    </span>
+    <span class="ranking-score">110.8</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0221.html" class="ranking-link">
+    <span class="ranking-number">91</span>
+    <img src="71.jpg" alt="忘了我是谁" loading="lazy">
+    <span class="ranking-info">
+      <strong>忘了我是谁</strong>
+      <em>2025 · 中国大陆 · 悬疑 / 剧情 / 科幻</em>
+      <span>他从病床上醒来，妻子说他是著名脑科学家，女儿说他是慈父，但镜子里的脸告诉他：这不是他的人生。</span>
+    </span>
+    <span class="ranking-score">110.8</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0420.html" class="ranking-link">
+    <span class="ranking-number">92</span>
+    <img src="120.jpg" alt="意外访客" loading="lazy">
+    <span class="ranking-info">
+      <strong>意外访客</strong>
+      <em>2024 · 西班牙 · 悬疑、惊悚、心理</em>
+      <span>暴雨夜，一对中年夫妇在家接待了一位自称“旧友儿子”的年轻访客，但当丈夫去翻老照片时，发现朋友根本没有儿子。</span>
+    </span>
+    <span class="ranking-score">110.8</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0171.html" class="ranking-link">
+    <span class="ranking-number">93</span>
+    <img src="21.jpg" alt="小心女人" loading="lazy">
+    <span class="ranking-info">
+      <strong>小心女人</strong>
+      <em>2023 · 韩国 · 惊悚 / 悬疑</em>
+      <span>男人杀死了女友后开始和另一个女人交往，却发现新女友和自己杀死的那个长着同一张脸。</span>
+    </span>
+    <span class="ranking-score">110.8</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0145.html" class="ranking-link">
+    <span class="ranking-number">94</span>
+    <img src="145.jpg" alt="悬案追凶" loading="lazy">
+    <span class="ranking-info">
+      <strong>悬案追凶</strong>
+      <em>2020 · 美国 · 犯罪, 悬疑, 剧情</em>
+      <span>一档播客节目重新调查一桩18年前的灭门悬案，主播发现自己离异多年的父母竟都是当年的嫌疑人。</span>
+    </span>
+    <span class="ranking-score">110.8</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0199.html" class="ranking-link">
+    <span class="ranking-number">95</span>
+    <img src="49.jpg" alt="身为人母" loading="lazy">
+    <span class="ranking-info">
+      <strong>身为人母</strong>
+      <em>2006 · 美国 · 剧情 / 家庭</em>
+      <span>她以为成为母亲就是人生的答案，直到日复一日的照料、牺牲与沉默，把她推到了“我究竟是谁”的边缘。</span>
+    </span>
+    <span class="ranking-score">110.8</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0344.html" class="ranking-link">
+    <span class="ranking-number">96</span>
+    <img src="44.jpg" alt="都铎王朝第二季" loading="lazy">
+    <span class="ranking-info">
+      <strong>都铎王朝第二季</strong>
+      <em>2026 · 英国 · 历史，剧情，宫廷</em>
+      <span>安妮·博林的王冠已在风雨中飘摇，亨利八世的刀锋正缓缓转向他最迷恋过的女人。</span>
+    </span>
+    <span class="ranking-score">110.7</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0431.html" class="ranking-link">
+    <span class="ranking-number">97</span>
+    <img src="131.jpg" alt="狄仁杰之通天教主" loading="lazy">
+    <span class="ranking-info">
+      <strong>狄仁杰之通天教主</strong>
+      <em>2025 · 中国大陆 · 悬疑 / 古装 / 动作</em>
+      <span>洛阳城接连发生“人炬”自燃案，狄仁杰追查到一个名为“通天教”的神秘组织，却发现教主竟是自己死去十年的同窗。</span>
+    </span>
+    <span class="ranking-score">110.7</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0096.html" class="ranking-link">
+    <span class="ranking-number">98</span>
+    <img src="96.jpg" alt="女孩画像" loading="lazy">
+    <span class="ranking-info">
+      <strong>女孩画像</strong>
+      <em>2024 · 芬兰 · 剧情, 悬疑</em>
+      <span>一幅来自1942年的神秘女孩画像，让现代少女艾娜的梦境与现实逐渐重叠。</span>
+    </span>
+    <span class="ranking-score">110.7</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0190.html" class="ranking-link">
+    <span class="ranking-number">99</span>
+    <img src="40.jpg" alt="非凡守护" loading="lazy">
+    <span class="ranking-info">
+      <strong>非凡守护</strong>
+      <em>2024 · 中国 · 悬疑, 犯罪, 剧情</em>
+      <span>派出所便衣老周每天混迹菜市场抓小偷，直到有一天，他发现自己的“对家”竟是二十年前失踪的儿子。</span>
+    </span>
+    <span class="ranking-score">110.7</span>
+  </a>
+</li>
+
+<li class="ranking-row">
+  <a href="videos/0586.html" class="ranking-link">
+    <span class="ranking-number">100</span>
+    <img src="136.jpg" alt="外宿的霍莉" loading="lazy">
+    <span class="ranking-info">
+      <strong>外宿的霍莉</strong>
+      <em>2014 · 美国 · 青春 / 喜剧 / 成长</em>
+      <span>一个从不敢违反校规的模范生，在第一次“外宿”后，发现自己真正想逃离的不是宿舍，而是被安排好的人生。</span>
+    </span>
+    <span class="ranking-score">110.7</span>
+  </a>
+</li>
+
+  </ol>
+</main>
+
+<footer class="bg-gradient-to-r from-slate-800 via-slate-900 to-slate-800 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+      <div>
+        <div class="flex items-center space-x-2 mb-4">
+          <span class="brand-mark small" aria-hidden="true">▶</span>
+          <h2 class="text-xl font-bold">精选电影</h2>
+        </div>
+        <p class="text-gray-400 text-sm leading-relaxed">精选电影栏目覆盖多类型影片，结合热度与口碑整理片单，适合查找高关注度电影内容。</p>
+        <p class="text-orange-400 text-sm mt-4">热门好看的电影大全 · 高清电影免费在线观看</p>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-4 text-orange-400">站点导航</h3>
+        <ul class="space-y-2">
+          <li><a href="index.html" class="text-gray-400 hover:text-white transition-colors text-sm">首页</a></li>
+          <li><a href="categories.html" class="text-gray-400 hover:text-white transition-colors text-sm">分类总览</a></li>
+          <li><a href="rankings.html" class="text-gray-400 hover:text-white transition-colors text-sm">排行榜</a></li>
+          <li><a href="search.html" class="text-gray-400 hover:text-white transition-colors text-sm">搜索筛选</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-4 text-orange-400">热门分类</h3>
+        <ul class="space-y-2">
+          <li><a href="category-jingxuan-dianying.html" class="text-gray-400 hover:text-white transition-colors text-sm">精选电影</a></li><li><a href="category-remen-haopian.html" class="text-gray-400 hover:text-white transition-colors text-sm">热门好片</a></li><li><a href="category-gaoqing-pianku.html" class="text-gray-400 hover:text-white transition-colors text-sm">高清片库</a></li><li><a href="category-gaofen-yingpian.html" class="text-gray-400 hover:text-white transition-colors text-sm">高分影片</a></li><li><a href="category-koubei-tuijian.html" class="text-gray-400 hover:text-white transition-colors text-sm">口碑推荐</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-4 text-orange-400">内容索引</h3>
+        <p class="text-gray-400 text-sm leading-relaxed">每部影片均生成独立详情页，包含剧情简介、影评、标签、相关推荐与可点击播放器区域。</p>
+      </div>
+    </div>
+    <div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+      <p class="text-gray-400 text-sm">© 2026 精选电影. 纯静态页面展示。</p>
+      <p class="text-gray-500 text-xs">所有影片条目均来自已上传的影片内容数据源。</p>
+    </div>
+  </div>
+</footer>
+  <script src="assets/app.js" defer></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

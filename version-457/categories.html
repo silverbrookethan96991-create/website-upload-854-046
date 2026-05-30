@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>分类总览-精选电影-热门好看的电影大全-高清电影免费在线观看</title>
+  <meta name="description" content="精选电影分类总览，包含多类型影片频道与独立分类页面。">
+  <meta name="keywords" content="精选电影,热门电影,电影大全,高清电影,电影观看,高分影片">
+  <link rel="stylesheet" href="assets/original.css">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="bg-gradient-to-br from-slate-50 via-orange-50 to-pink-50 text-gray-800">
+
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-md border-b border-orange-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16 md:h-20">
+      <a href="index.html" class="flex items-center space-x-2 group" aria-label="精选电影首页">
+        <span class="brand-mark" aria-hidden="true">▶</span>
+        <span class="flex flex-col">
+          <span class="text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">精选电影</span>
+          <span class="text-xs text-gray-500 hidden sm:block">高清电影免费在线观看</span>
+        </span>
+      </a>
+      <nav class="hidden md:flex items-center space-x-8" aria-label="主导航">
+        <a href="index.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium">首页</a>
+        <a href="categories.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium">分类</a>
+        <a href="rankings.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium">排行榜</a>
+        <a href="category-jingxuan-dianying.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium">精选电影</a>
+        <a href="category-remen-haopian.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium">热门好片</a>
+        <a href="category-gaoqing-pianku.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium">高清片库</a>
+        <a href="category-gaofen-yingpian.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium">高分影片</a>
+        <a href="category-koubei-tuijian.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium">口碑推荐</a>
+      </nav>
+      <div class="flex items-center space-x-4">
+        <form action="search.html" method="get" class="hidden md:flex items-center">
+          <div class="relative">
+            <input type="search" name="q" placeholder="搜索电影、类型、地区..." class="w-48 lg:w-64 pl-4 pr-10 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent">
+            <button type="submit" class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-orange-500 transition-colors" aria-label="搜索">⌕</button>
+          </div>
+        </form>
+        <button type="button" class="md:hidden text-gray-700 hover:text-orange-500 transition-colors js-menu-toggle" aria-label="打开菜单" aria-expanded="false">☰</button>
+      </div>
+    </div>
+    <div class="md:hidden pb-4 space-y-4 mobile-panel" hidden>
+      <form action="search.html" method="get" class="flex items-center">
+        <div class="relative w-full">
+          <input type="search" name="q" placeholder="搜索电影、类型、地区..." class="w-full pl-4 pr-10 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent">
+          <button type="submit" class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-orange-500 transition-colors" aria-label="搜索">⌕</button>
+        </div>
+      </form>
+      <nav class="flex flex-col space-y-3" aria-label="移动端导航">
+        <a href="index.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium py-2 border-b border-gray-100">首页</a>
+        <a href="categories.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium py-2 border-b border-gray-100">分类总览</a>
+        <a href="rankings.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium py-2 border-b border-gray-100">排行榜</a>
+        <a href="category-jingxuan-dianying.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium py-2 border-b border-gray-100">精选电影</a>
+        <a href="category-remen-haopian.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium py-2 border-b border-gray-100">热门好片</a>
+        <a href="category-gaoqing-pianku.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium py-2 border-b border-gray-100">高清片库</a>
+        <a href="category-gaofen-yingpian.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium py-2 border-b border-gray-100">高分影片</a>
+        <a href="category-koubei-tuijian.html" class="text-gray-700 hover:text-orange-500 transition-colors font-medium py-2 border-b border-gray-100">口碑推荐</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  <section class="mb-12 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">分类总览</h1>
+    <p class="text-xl text-gray-600 max-w-3xl mx-auto">共解析生成 2000 部影片，随机均分到 10 个独立静态分类页。</p>
+  </section>
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    
+<article class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+  <a href="category-jingxuan-dianying.html" class="block category-summary-media">
+    <img src="10.jpg" alt="猛鬼大厦" loading="lazy"><img src="18.jpg" alt="家庭血液" loading="lazy"><img src="20.jpg" alt="爱的过去进行式：真爱永远" loading="lazy">
+  </a>
+  <div class="p-6">
+    <div class="flex items-center justify-between mb-3">
+      <h2 class="text-2xl font-bold text-gray-800">精选电影</h2>
+      <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">200 部</span>
+    </div>
+    <p class="text-gray-600 leading-relaxed mb-5">汇集站内高关注影片，覆盖热门、口碑与话题内容。</p>
+    <a href="category-jingxuan-dianying.html" class="inline-flex items-center justify-center px-5 py-2 bg-gradient-to-r from-orange-500 to-pink-500 text-white rounded-full font-semibold hover:shadow-lg transition-all">进入频道</a>
+  </div>
+</article>
+
+<article class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+  <a href="category-remen-haopian.html" class="block category-summary-media">
+    <img src="4.jpg" alt="卡夫卡2024" loading="lazy"><img src="9.jpg" alt="罗马新年" loading="lazy"><img src="30.jpg" alt="都挺好" loading="lazy">
+  </a>
+  <div class="p-6">
+    <div class="flex items-center justify-between mb-3">
+      <h2 class="text-2xl font-bold text-gray-800">热门好片</h2>
+      <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">200 部</span>
+    </div>
+    <p class="text-gray-600 leading-relaxed mb-5">以热门度为入口整理片单，适合快速发现高关注作品。</p>
+    <a href="category-remen-haopian.html" class="inline-flex items-center justify-center px-5 py-2 bg-gradient-to-r from-orange-500 to-pink-500 text-white rounded-full font-semibold hover:shadow-lg transition-all">进入频道</a>
+  </div>
+</article>
+
+<article class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+  <a href="category-gaoqing-pianku.html" class="block category-summary-media">
+    <img src="21.jpg" alt="向南海之道" loading="lazy"><img src="49.jpg" alt="独自一人" loading="lazy"><img src="55.jpg" alt="恶汉甜梦" loading="lazy">
+  </a>
+  <div class="p-6">
+    <div class="flex items-center justify-between mb-3">
+      <h2 class="text-2xl font-bold text-gray-800">高清片库</h2>
+      <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">200 部</span>
+    </div>
+    <p class="text-gray-600 leading-relaxed mb-5">围绕高清观看场景组织内容，保留影片真实类型、地区与标签。</p>
+    <a href="category-gaoqing-pianku.html" class="inline-flex items-center justify-center px-5 py-2 bg-gradient-to-r from-orange-500 to-pink-500 text-white rounded-full font-semibold hover:shadow-lg transition-all">进入频道</a>
+  </div>
+</article>
+
+<article class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+  <a href="category-gaofen-yingpian.html" class="block category-summary-media">
+    <img src="11.jpg" alt="最后的权利2" loading="lazy"><img src="14.jpg" alt="御狐之绊第二季" loading="lazy"><img src="22.jpg" alt="战斗少女 血之铁假面传说" loading="lazy">
+  </a>
+  <div class="p-6">
+    <div class="flex items-center justify-between mb-3">
+      <h2 class="text-2xl font-bold text-gray-800">高分影片</h2>
+      <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">200 部</span>
+    </div>
+    <p class="text-gray-600 leading-relaxed mb-5">面向口碑与完整度优先的观看需求，便于查找高质量影片。</p>
+    <a href="category-gaofen-yingpian.html" class="inline-flex items-center justify-center px-5 py-2 bg-gradient-to-r from-orange-500 to-pink-500 text-white rounded-full font-semibold hover:shadow-lg transition-all">进入频道</a>
+  </div>
+</article>
+
+<article class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+  <a href="category-koubei-tuijian.html" class="block category-summary-media">
+    <img src="3.jpg" alt="扒扒爸爸看爸爸" loading="lazy"><img src="27.jpg" alt="鬼打鬼" loading="lazy"><img src="52.jpg" alt="医妃天下" loading="lazy">
+  </a>
+  <div class="p-6">
+    <div class="flex items-center justify-between mb-3">
+      <h2 class="text-2xl font-bold text-gray-800">口碑推荐</h2>
+      <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">200 部</span>
+    </div>
+    <p class="text-gray-600 leading-relaxed mb-5">结合简介、影评与标签信息整理推荐内容。</p>
+    <a href="category-koubei-tuijian.html" class="inline-flex items-center justify-center px-5 py-2 bg-gradient-to-r from-orange-500 to-pink-500 text-white rounded-full font-semibold hover:shadow-lg transition-all">进入频道</a>
+  </div>
+</article>
+
+<article class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+  <a href="category-xinpian-sudi.html" class="block category-summary-media">
+    <img src="19.jpg" alt="菩提树" loading="lazy"><img src="25.jpg" alt="迷夜惨遇" loading="lazy"><img src="35.jpg" alt="种地吧3" loading="lazy">
+  </a>
+  <div class="p-6">
+    <div class="flex items-center justify-between mb-3">
+      <h2 class="text-2xl font-bold text-gray-800">新片速递</h2>
+      <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">200 部</span>
+    </div>
+    <p class="text-gray-600 leading-relaxed mb-5">按照片单专题方式收纳影片，方便浏览近年与新鲜题材。</p>
+    <a href="category-xinpian-sudi.html" class="inline-flex items-center justify-center px-5 py-2 bg-gradient-to-r from-orange-500 to-pink-500 text-white rounded-full font-semibold hover:shadow-lg transition-all">进入频道</a>
+  </div>
+</article>
+
+<article class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+  <a href="category-jingdian-huikan.html" class="block category-summary-media">
+    <img src="2.jpg" alt="凶胎" loading="lazy"><img src="6.jpg" alt="布里斯营" loading="lazy"><img src="8.jpg" alt="鲁莽时刻" loading="lazy">
+  </a>
+  <div class="p-6">
+    <div class="flex items-center justify-between mb-3">
+      <h2 class="text-2xl font-bold text-gray-800">经典回看</h2>
+      <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">200 部</span>
+    </div>
+    <p class="text-gray-600 leading-relaxed mb-5">适合回看不同年代、不同地区的经典与长尾内容。</p>
+    <a href="category-jingdian-huikan.html" class="inline-flex items-center justify-center px-5 py-2 bg-gradient-to-r from-orange-500 to-pink-500 text-white rounded-full font-semibold hover:shadow-lg transition-all">进入频道</a>
+  </div>
+</article>
+
+<article class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+  <a href="category-leixing-heji.html" class="block category-summary-media">
+    <img src="1.jpg" alt="女魔童" loading="lazy"><img src="13.jpg" alt="拇指版泰坦尼克号" loading="lazy"><img src="40.jpg" alt="圣诞之歌" loading="lazy">
+  </a>
+  <div class="p-6">
+    <div class="flex items-center justify-between mb-3">
+      <h2 class="text-2xl font-bold text-gray-800">类型合集</h2>
+      <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">200 部</span>
+    </div>
+    <p class="text-gray-600 leading-relaxed mb-5">保留每部影片原始类型与标签，用专题页承接多类型浏览。</p>
+    <a href="category-leixing-heji.html" class="inline-flex items-center justify-center px-5 py-2 bg-gradient-to-r from-orange-500 to-pink-500 text-white rounded-full font-semibold hover:shadow-lg transition-all">进入频道</a>
+  </div>
+</article>
+
+<article class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+  <a href="category-quanqiu-yingxiang.html" class="block category-summary-media">
+    <img src="5.jpg" alt="隔壁的力" loading="lazy"><img src="7.jpg" alt="巴黎最后探戈" loading="lazy"><img src="12.jpg" alt="荒原" loading="lazy">
+  </a>
+  <div class="p-6">
+    <div class="flex items-center justify-between mb-3">
+      <h2 class="text-2xl font-bold text-gray-800">全球影像</h2>
+      <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">200 部</span>
+    </div>
+    <p class="text-gray-600 leading-relaxed mb-5">覆盖不同地区影片条目，适合按地区与风格继续筛选。</p>
+    <a href="category-quanqiu-yingxiang.html" class="inline-flex items-center justify-center px-5 py-2 bg-gradient-to-r from-orange-500 to-pink-500 text-white rounded-full font-semibold hover:shadow-lg transition-all">进入频道</a>
+  </div>
+</article>
+
+<article class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+  <a href="category-piandan-zhuanti.html" class="block category-summary-media">
+    <img src="15.jpg" alt="巴黎电幻世代" loading="lazy"><img src="26.jpg" alt="精灵也疯狂" loading="lazy"><img src="61.jpg" alt="蒙娜丽莎的微笑" loading="lazy">
+  </a>
+  <div class="p-6">
+    <div class="flex items-center justify-between mb-3">
+      <h2 class="text-2xl font-bold text-gray-800">片单专题</h2>
+      <span class="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">200 部</span>
+    </div>
+    <p class="text-gray-600 leading-relaxed mb-5">以片单形式均衡承接影片数据，保证每部影片都可通过静态内链访问。</p>
+    <a href="category-piandan-zhuanti.html" class="inline-flex items-center justify-center px-5 py-2 bg-gradient-to-r from-orange-500 to-pink-500 text-white rounded-full font-semibold hover:shadow-lg transition-all">进入频道</a>
+  </div>
+</article>
+
+  </section>
+</main>
+
+<footer class="bg-gradient-to-r from-slate-800 via-slate-900 to-slate-800 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+      <div>
+        <div class="flex items-center space-x-2 mb-4">
+          <span class="brand-mark small" aria-hidden="true">▶</span>
+          <h2 class="text-xl font-bold">精选电影</h2>
+        </div>
+        <p class="text-gray-400 text-sm leading-relaxed">精选电影栏目覆盖多类型影片，结合热度与口碑整理片单，适合查找高关注度电影内容。</p>
+        <p class="text-orange-400 text-sm mt-4">热门好看的电影大全 · 高清电影免费在线观看</p>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-4 text-orange-400">站点导航</h3>
+        <ul class="space-y-2">
+          <li><a href="index.html" class="text-gray-400 hover:text-white transition-colors text-sm">首页</a></li>
+          <li><a href="categories.html" class="text-gray-400 hover:text-white transition-colors text-sm">分类总览</a></li>
+          <li><a href="rankings.html" class="text-gray-400 hover:text-white transition-colors text-sm">排行榜</a></li>
+          <li><a href="search.html" class="text-gray-400 hover:text-white transition-colors text-sm">搜索筛选</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-4 text-orange-400">热门分类</h3>
+        <ul class="space-y-2">
+          <li><a href="category-jingxuan-dianying.html" class="text-gray-400 hover:text-white transition-colors text-sm">精选电影</a></li><li><a href="category-remen-haopian.html" class="text-gray-400 hover:text-white transition-colors text-sm">热门好片</a></li><li><a href="category-gaoqing-pianku.html" class="text-gray-400 hover:text-white transition-colors text-sm">高清片库</a></li><li><a href="category-gaofen-yingpian.html" class="text-gray-400 hover:text-white transition-colors text-sm">高分影片</a></li><li><a href="category-koubei-tuijian.html" class="text-gray-400 hover:text-white transition-colors text-sm">口碑推荐</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-4 text-orange-400">内容索引</h3>
+        <p class="text-gray-400 text-sm leading-relaxed">每部影片均生成独立详情页，包含剧情简介、影评、标签、相关推荐与可点击播放器区域。</p>
+      </div>
+    </div>
+    <div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+      <p class="text-gray-400 text-sm">© 2026 精选电影. 纯静态页面展示。</p>
+      <p class="text-gray-500 text-xs">所有影片条目均来自已上传的影片内容数据源。</p>
+    </div>
+  </div>
+</footer>
+  <script src="assets/app.js" defer></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

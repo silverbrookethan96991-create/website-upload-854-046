@@ -1,0 +1,23 @@
+{
+  "parsed_movies": 2000,
+  "m3u8_sources": 20,
+  "categories": {
+    "精选电影": 200,
+    "热门好片": 200,
+    "高清片库": 200,
+    "高分影片": 200,
+    "口碑推荐": 200,
+    "新片速递": 200,
+    "经典回看": 200,
+    "类型合集": 200,
+    "全球影像": 200,
+    "片单专题": 200
+  },
+  "validation": {
+    "html_count": 2015,
+    "detail_count": 2000,
+    "bad_baidu": [],
+    "forbidden_hits": [],
+    "missing_links": []
+  }
+}
